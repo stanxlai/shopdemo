@@ -1,0 +1,215 @@
+{
+	"info": {
+		"_postman_id": "b08ffe5f-5aa0-4790-9237-3c4728484da2",
+		"name": "shop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "find all",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "find all paging",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "find number 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/members/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"members",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create one",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/members/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"members",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update number 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/members/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"members",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete number 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/members/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"members",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/members/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"members",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order product not exists",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/members/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"members",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find order number 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/members/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"members",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find order by product name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/members/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"members",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find order datetime",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/members/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"members",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find order count bigger than n",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/members/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"members",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
